@@ -62,39 +62,3 @@ npm run build
 ```
 
 Tu peux ensuite déployer le contenu du dossier `build/` sur n'importe quel hébergeur statique (Netlify, Vercel, GitHub Pages, etc.).
-
-## Contribuer
-
-1. Fork le dépôt.
-2. Crée une branche feature : `git checkout -b feat/ma-fonctionnalite`.
-3. Commit tes changements : `git commit -m "Ajout: ..."`.
-4. Push et ouvre une Pull Request.
-
-## Dépannage rapide
-
-- Si l'application n'est pas visible sur `localhost:3000`, vérifie le port indiqué dans le terminal après `npm start`.
-- Si des erreurs liées aux packages apparaissent, supprime `node_modules` et `package-lock.json` puis réinstalle :
-
-```powershell
-rm -r node_modules; rm package-lock.json; npm install
-```
-
-> Sous PowerShell sur Windows, `rm -r` fonctionne. Tu peux aussi utiliser l'explorateur pour supprimer `node_modules`.
-
-## Licence
-
-MIT — regarde le fichier `LICENSE` si présent.
-
-## Remerciements
-
-Projet inspiré par des tutoriels et l'API CoinGecko.
-
----
-
-Si tu veux, je peux :
-
-- ajouter un exemple d'image/preview dans le README;
-- configurer un workflow GitHub Actions pour build et tests;
-- ou préparer un déploiement automatique sur Netlify/Vercel/GitHub Pages.
-
-Dis-moi ce que tu souhaites et je m'en occupe.
